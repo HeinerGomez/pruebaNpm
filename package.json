@@ -1,0 +1,27 @@
+{
+  "name": "paqueteuno",
+  "version": "0.1.0",
+  "description": "Una prueba",
+  "main": "dist/src/programa1.js",
+  "scripts": {
+    "build": "babel src/programa1.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeinerGomez/pruebaNpm.git"
+  },
+  "keywords": [
+    "prueba",
+    "platzi",
+    "fundamentosJavaScript"
+  ],
+  "author": "Heiner",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
+}
